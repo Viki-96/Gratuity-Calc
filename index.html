@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UAE End-of-Service Benefits Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>UAE End-of-Service Benefits Calculator</h1>
+        <form id="calculator-form">
+            <label for="basic-salary">Basic Salary (Dh):</label>
+            <input type="number" id="basic-salary" name="basic-salary" required>
+            <label for="joining-date">Joining Date:</label>
+            <input type="date" id="joining-date" name="joining-date" required>
+            <label for="end-of-service-date">End of Service Date:</label>
+            <input type="date" id="end-of-service-date" name="end-of-service-date" required>
+            <button type="submit">Calculate</button>
+        </form>
+        <div id="results"></div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
